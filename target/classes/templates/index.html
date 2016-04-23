@@ -46,23 +46,19 @@
 			<div id="main">
 
 				<aside id="mainimg">
-
 					<img class="slide_file" src="images/1.jpg" title="index.html" />
 					<img class="slide_file" src="images/2.jpg" title="index.html" />
 					<img class="slide_file" src="images/3.jpg" title="index.html" />
 					<input type="hidden" id="slide_loop" value="0" />
-
 					<a href="index.html" id="slide_link">
 						<img id="slide_image" src="images/1.jpg" alt="" />
 						<img id="slide_image2" src="images/1.jpg" alt="" />
 					</a>
-
 				</aside>
 
 				<section class="box">
 
 					<h2>無料テンプレートのご利用前に必ずお読み下さい</h2>
-
 					<p>
 						このテンプレートは
 						<a href="http://template-party.com/">無料ホームページテンプレート配布サイトのTemplate Party</a>
@@ -70,11 +66,10 @@
 						<br />
 						必ず
 						<a href="http://template-party.com/read.html">利用規約</a>
-						をご一読の上でご利用下さい。 不明な点があれば
+						をご一読の上でご利用下さい。不明な点があれば
 						<a href="http://template-party.com/faq.html">ＦＡＱコーナー</a>
 						をご一読下さい。
 					</p>
-
 					<p>
 						<strong class="color1">■HP最下部の著作表示「Web Design:Template-Party」は無断で削除しないで下さい</strong>
 						<br />
@@ -158,8 +153,10 @@
 				</section>
 
 			</div>
+			<!--/main-->
 
 			<div id="sub">
+
 				<nav class="box1">
 					<h2>SUB MENU</h2>
 					<ul>
@@ -183,7 +180,9 @@
 				</aside>
 
 				<section class="mb15">
+
 					<h2>商品情報</h2>
+
 					<section class="list">
 						<a href="item.html">
 							<figure>
@@ -226,11 +225,17 @@
 						<a href="http://template-party.com/free_program/program1.html" target="_blank">カレンダープログラム無料配布中です。</a>
 					</p>
 				</section>
+
 			</div>
+			<!--/sub-->
+
 		</div>
+		<!--/contents in-->
 
 		<div id="side">
+
 			<section class="mb15">
+
 				<h2>商品情報</h2>
 
 				<section class="list">
@@ -289,6 +294,7 @@
 			</section>
 
 		</div>
+		<!--/side-->
 
 		<ul id="footermenu">
 			<li><a href="index.html">ホーム</a></li>
@@ -300,20 +306,20 @@
 		</p>
 
 	</div>
+	<!--/contents-->
 
 	<footer>
-		<small>Copyright&copy; 2015 <a href="index.html">Sample Online Shop</a> All Rights Reserved.
-		</small> <span class="pr"><a href="http://template-party.com/" target="_blank">Web Design:Template-Party</a></span>
+		<small>
+			Copyright&copy; 2015
+			<a th:href="@{index.html}">Sample Online Shop</a>
+			All Rights Reserved.
+		</small>
+		<span class="pr">
+			<a th:href="@{http://template-party.com/}" target="_blank">Web Design:Template-Party</a>
+		</span>
 	</footer>
 
-	スライドショースクリプト
-	<script type="text/javascript" src="js/slide_simple_pack.js"></script>
-
-	スマホ用更新情報
-	<!-- <script type="text/javascript"> -->
-	<!-- 		if (OCwindowWidth() < 480) {
-			open_close("newinfo_hdr", "newinfo");
-		} -->
-	<!-- </script> -->
+	<!--スライドショースクリプト-->
+	<!-- <script type="text/javascript" src="js/slide_simple_pack.js"></script> -->
 </body>
 </html>
