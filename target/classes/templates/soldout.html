@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org"
+	xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<head>
+<meta charset="utf-8">
+<title>ショップ向け 無料ホームページテンプレート tp_shop7</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="copyright" content="Template Party" />
+<meta name="description" content="ここにサイト説明を入れます" />
+<meta name="keywords" content="キーワード１,キーワード２,キーワード３,キーワード４,キーワード５" />
+<link rel="stylesheet" th:href="@{./css/style.css}" />
+<script type="text/javascript" src="js/openclose.js"></script>
+</head>
+
+<body>
+
+	<header>
+		<div class="inner">
+			<h1>h1テキスト入力場所です。サンプルテキスト。サンプルテキスト。</h1>
+			<p id="logo">
+				<a href="index.html">
+					<img src="images/logo.png" width="220" height="30" alt="" />
+				</a>
+			</p>
+			<p id="cart">
+				<a href="#">カートをみる</a>
+			</p>
+		</div>
+	</header>
+
+	<nav id="menubar">
+		<ul>
+			<li><a href="index.html">ホーム</a></li>
+			<li><a href="info.html">INFORMATION</a></li>
+			<li><a href="shopping.html">SHOPPING</a></li>
+			<li><a href="soldout.html">SOLD OUT</a></li>
+			<li><a href="access.html">ACCESS</a></li>
+			<li><a href="link.html">LINK</a></li>
+		</ul>
+	</nav>
+
+	<div id="contents">
+
+		<div id="contents-in">
+
+			<div id="main">
+
+				<section>
+
+					<h2>SOLD OUT</h2>
+					<p>完売商品のご案内。</p>
+
+					<section class="list">
+						<a href="item.html">
+							<h4>商品名</h4>
+							<figure>
+								<img src="images/sample2.jpg" alt="商品名をここに入れます" />
+							</figure>
+							<p>
+								SOLD OUTマークはhtml側に直接タグとテキストで加えて下さい。 <span class="soldout">SOLD OUT</span>
+								<br />
+								&lt;span class=&quot;soldout&quot;&gt;SOLD OUT&lt;/span&gt;
+								<br />
+								※IE8以下は斜めには表示されず、横長表示されます。
+							</p>
+						</a>
+					</section>
+
+					<section class="list">
+						<a href="item.html">
+							<h4>商品名</h4>
+							<figure>
+								<img src="images/sample2.jpg" alt="商品名をここに入れます" />
+							</figure>
+							<p>
+								SOLD OUTマークはhtml側に直接タグとテキストで加えて下さい。 <span class="soldout">SOLD OUT</span>
+								<br />
+								&lt;span class=&quot;soldout&quot;&gt;SOLD OUT&lt;/span&gt;
+								<br />
+								※IE8以下は斜めには表示されず、横長表示されます。
+							</p>
+						</a>
+					</section>
+
+				</section>
+
+			</div>
+			<!--/main-->
+
+			<div id="sub">
+
+				<nav class="box1">
+					<h2>SUB MENU</h2>
+					<ul>
+						<li><a href="#">主要リンクサンプル</a></li>
+						<li><a href="#">主要リンクサンプル</a></li>
+						<li><a href="#">主要リンクサンプル</a></li>
+						<li><a href="#">主要リンクサンプル</a></li>
+						<li><a href="#">主要リンクサンプル</a></li>
+					</ul>
+				</nav>
+
+				<aside>
+					<h2>関連情報</h2>
+					<ul class="submenu">
+						<li><a href="#">関連情報リンク</a></li>
+						<li><a href="#">関連情報リンク</a></li>
+						<li><a href="#">関連情報リンク</a></li>
+						<li><a href="#">関連情報リンク</a></li>
+						<li><a href="#">関連情報リンク</a></li>
+					</ul>
+				</aside>
+
+				<section class="mb15">
+
+					<h2>商品情報</h2>
+
+					<section class="list">
+						<a href="item.html">
+							<figure>
+								<img src="images/sample1.jpg" alt="商品名をここに入れます" />
+							</figure>
+							<h4>商品名</h4>
+							<p>ここに商品の説明を入れます。サンプルテキスト。</p>
+						</a>
+					</section>
+
+					<section class="list">
+						<a href="item.html">
+							<figure>
+								<img src="images/sample1.jpg" alt="商品名をここに入れます" />
+							</figure>
+							<h4>商品名</h4>
+							<p>ここに商品の説明を入れます。サンプルテキスト。</p>
+							<span class="osusume">おすすめ</span>
+						</a>
+					</section>
+
+					<section class="list">
+						<a href="item.html">
+							<figure>
+								<img src="images/sample1.jpg" alt="商品名をここに入れます" />
+							</figure>
+							<h4>商品名</h4>
+							<p>ここに商品の説明を入れます。サンプルテキスト。</p>
+							<span class="soldout">SOLD OUT</span>
+						</a>
+					</section>
+
+				</section>
+
+				<section class="box">
+					<h2>営業日カレンダー</h2>
+					<p>
+						<img src="images/sample_cal.png" width="188" height="140" />
+						<br />
+						<a href="http://template-party.com/free_program/program1.html" target="_blank">カレンダープログラム無料配布中です。</a>
+					</p>
+				</section>
+
+			</div>
+			<!--/sub-->
+
+		</div>
+		<!--/contents in-->
+
+		<div id="side">
+
+			<section class="mb15">
+
+				<h2>商品情報</h2>
+
+				<section class="list">
+					<a href="item.html">
+						<figure>
+							<img src="images/sample1.jpg" alt="商品名をここに入れます" />
+						</figure>
+						<h4>商品名</h4>
+						<p>ここに商品の説明を入れます。サンプルテキスト。</p>
+					</a>
+				</section>
+
+				<section class="list">
+					<a href="item.html">
+						<figure>
+							<img src="images/sample1.jpg" alt="商品名をここに入れます" />
+						</figure>
+						<h4>商品名</h4>
+						<p>ここに商品の説明を入れます。サンプルテキスト。</p>
+						<span class="osusume">おすすめ</span>
+					</a>
+				</section>
+
+				<section class="list">
+					<a href="item.html">
+						<figure>
+							<img src="images/sample1.jpg" alt="商品名をここに入れます" />
+						</figure>
+						<h4>商品名</h4>
+						<p>ここに商品の説明を入れます。サンプルテキスト。</p>
+						<span class="soldout">SOLD OUT</span>
+					</a>
+				</section>
+
+			</section>
+
+			<aside>
+				<h2>関連情報</h2>
+				<ul>
+					<li><a href="#">関連情報リンク</a></li>
+					<li><a href="#">関連情報リンク</a></li>
+					<li><a href="#">関連情報リンク</a></li>
+					<li><a href="#">関連情報リンク</a></li>
+					<li><a href="#">関連情報リンク</a></li>
+				</ul>
+			</aside>
+
+			<section class="box">
+				<h2>アクセスマップ</h2>
+				<p>
+					<img src="images/sample_map.png" width="188" height="250" />
+					<br />
+					<a href="http://template-party.com/file/pickup_googlemap.html" target="_blank">GoogleMapの貼り付け方はこちらをご覧下さい</a>
+					。
+				</p>
+			</section>
+
+		</div>
+		<!--/side-->
+
+		<ul id="footermenu">
+			<li><a href="index.html">ホーム</a></li>
+			<li><a href="contact.html">お問い合わせ</a></li>
+		</ul>
+
+		<p id="pagetop">
+			<a href="#">↑ PAGE TOP</a>
+		</p>
+
+	</div>
+	<!--/contents-->
+
+	<footer>
+		<small>Copyright&copy; 2015 <a href="index.html">Sample Online Shop</a> All Rights Reserved.
+		</small> <span class="pr"><a href="http://template-party.com/" target="_blank">Web Design:Template-Party</a></span>
+	</footer>
+
+	<!--スマホ用メニューバー-->
+	<img src="images/icon_bar.png" width="20" height="16" alt="" id="menubar_hdr" class="close" />
+	<script type="text/javascript">
+		if (OCwindowWidth() < 480) {
+			open_close("menubar_hdr", "menubar");
+		}
+	</script>
+
+</body>
+</html>
