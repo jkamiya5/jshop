@@ -1041,7 +1041,7 @@ h1 {
 }
 
 form {
-/* 	background: #f0f0f0; */
+	/* 	background: #f0f0f0; */
 	padding: 6% 4%;
 }
 
@@ -1083,7 +1083,6 @@ input[type="password"] {
 	background-position: center;
 	border: 1px solid #ccc;
 } */
-
 input[type="text"] {
 	width: 76%;
 	height: 20px;
@@ -1110,6 +1109,10 @@ input[type="submit"] {
 
 input[type="submit"]:hover {
 	background: #53B9A8;
+}
+
+.errorMsg {
+	color: red;
 }
 
 ::-webkit-input-placeholder {

@@ -1,4 +1,5 @@
 /META-INF/
-/com/
+/entity/
+/repositories/
 /controller/
-/form/
+/main/
