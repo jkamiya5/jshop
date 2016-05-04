@@ -1,5 +1,9 @@
-/META-INF/
-/entity/
-/repositories/
-/controller/
 /main/
+/META-INF/
+/Service/
+/Dto/
+/Config/
+/dto/
+/config/
+/constant/
+/exception/
